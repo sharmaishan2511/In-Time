@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border"
+    tools:context=".MainActivity">
+
+
+
+
+
+        <!--<RelativeLayout
+            android:id="@+id/page_android_large___1_ek1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp">-->
+
+
+        <!--<View
+                android:id="@+id/rectangle_1"
+                android:layout_width="357dp"
+                android:layout_height="796dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="14dp"
+                android:alpha="0"
+                android:background="@drawable/rectangle_1_shape"
+                android:rotationX="-360" />-->
+
+    <View
+        android:id="@+id/ellipse_1"
+        android:layout_width="212dp"
+        android:layout_height="212dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/ellipse_1_shape"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/ellipse_2"
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/ellipse_2_shape"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.116"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.935" />
+
+    <View
+        android:id="@+id/ellipse_3"
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+
+        android:background="@drawable/ellipse_3_shape"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.856"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.079" />
+
+    <!--<TextView
+                android:id="@+id/intime"
+                android:layout_width="214dp"
+                android:layout_height="97dp"
+                android:layout_marginLeft="118dp"
+                android:layout_marginTop="400dp"
+                android:fontFamily="Iceberg"
+                android:text="@string/intime_string"
+                android:textColor="#000000"
+                android:textSize="50sp" />-->
+
+    <View
+        android:id="@+id/ellipse_4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/ellipse_4_shape"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.247"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8" />
+
+    <View
+        android:id="@+id/ellipse_5"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/ellipse_5_shape"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.684"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.195" />
+
+    <View
+        android:id="@+id/ellipse_6"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/ellipse_6_shape"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.365"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.727" />
+
+    <View
+        android:id="@+id/ellipse_7"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/ellipse_7_shape"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.612"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.275" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="180dp"
+        android:layout_height="71dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:text="InTime"
+        android:textColor="#000000"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.557" />
+
+    <ImageView
+        android:id="@+id/man_walking_type_1_2_1f6b6_1f3fb_200d_2642_fe0f"
+        android:layout_width="118dp"
+        android:layout_height="124dp"
+        android:layout_alignStart="@+id/ellipse_1"
+        android:layout_alignTop="@+id/ellipse_1"
+        android:layout_alignEnd="@+id/ellipse_1"
+        android:layout_alignBottom="@+id/ellipse_1"
+
+        android:contentDescription="@string/man_walking_type_1_2_1f6b6_1f3fb_200d_2642_fe0f"
+        android:src="@drawable/man_walking_type_1_2_1f6b6_1f3fb_200d_2642_fe0f"
+        app:layout_constraintBottom_toBottomOf="@+id/ellipse_1"
+        app:layout_constraintEnd_toEndOf="@+id/ellipse_1"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="@+id/ellipse_1"
+        app:layout_constraintTop_toTopOf="@+id/ellipse_1"
+        app:layout_constraintVertical_bias="0.113" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
